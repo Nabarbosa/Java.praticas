@@ -7,16 +7,21 @@ public class Exercicio_4 {
         int numero;
 
         do{
-            System.out.println("Digite um numero");
+            System.out.println("Digite um numero: ");
 
             numero = scanner.nextInt();
 
-            if(numero < 0 || numero > 10){
-                System.out.println("Numero invalido! Tente novamente");
-            }
         } while (numero < 0 || numero > 10);
 
         System.out.println("Numero valido inserido: " + numero);
         scanner.close();
+
+        while (numero < 0 || numero > 10) {
+            System.out.println("Digite um numero: ");
+            System.out.println("Tente novamente: ");
+        }
+
+        System.out.println("Numero valido inserido: ");
     }
+
 }
