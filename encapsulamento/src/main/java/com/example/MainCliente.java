@@ -13,7 +13,7 @@ public class MainCliente {
         cliente2.setSenha(321);
 
         System.out.println("\n2º Cliente -- ");
-        System.out.println("Nome do 2º cliente: " + cliente2.getNome());
+        System.out.println("Nome do 2º cliente: " + cliente2.getNome()); 
         System.out.println("Email do 2º cliente: " + cliente2.getEmail());
         System.out.println("Senha do 2º cliente: " + cliente2.getSenha());
     }
