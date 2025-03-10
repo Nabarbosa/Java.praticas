@@ -1,4 +1,4 @@
-  package com.example;
+  package encapsulamento.src.main;
 
 public class MainCliente {
     public static void main(String[] args) {

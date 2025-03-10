@@ -1,4 +1,4 @@
-package com.example;
+package encapsulamento.src.main;
 
 public class Cliente {
     private String nome;
