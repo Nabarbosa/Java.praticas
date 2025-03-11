@@ -15,3 +15,4 @@ public class MainAnimal {
         System.out.println("Galo: " + galo.emitirSom() + " - " + galo.comer());
     }
 }
+
