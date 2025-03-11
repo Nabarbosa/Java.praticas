@@ -5,6 +5,7 @@
 git checkout -b feature/minha-feature : Criar uma branch
 git push orign feature/minha-feature : envia uma branch para o git
 git branch - para vizualizar as branchs
+git push -u origin nome-branch: salva e envia pro git
 
 
 
