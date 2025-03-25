@@ -13,14 +13,18 @@ public class Endereco {
 
     private String logradouro;
     private String numero;
+    private String cep;
+    private String cidade;
 
     public Endereco() {
     }
 
-    public Endereco(Long id, String logradouro, String numero) {
+    public Endereco(Long id, String logradouro, String numero, String cep, String cidade) {
         this.id = id;
         this.logradouro = logradouro;
         this.numero = numero;
+        this.cep = cep;
+        this.cidede = cidade;
     }
 
     public Long getId() {
@@ -47,12 +51,30 @@ public class Endereco {
         this.numero = numero;
     }
 
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
     @Override
     public String toString() {
         return "Endereco{" +
                 "id=" + id +
                 ", logradouro='" + logradouro + '\'' +
                 ", numero='" + numero + '\'' +
+                ", cep='" + cep + '\'' +
+                ", cidade='" + cidade + '\'' +
                 '}';
     }
 }
